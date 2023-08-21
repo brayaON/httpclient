@@ -17,6 +17,10 @@ func callMethods() {
     methods.Patch(baseURL)
 }
 
-func main() {
+func callAuth() {
     auth.BasicAuth(baseURL)
+    auth.BearerAuth(baseURL)
+}
+
+func main() {
 }
